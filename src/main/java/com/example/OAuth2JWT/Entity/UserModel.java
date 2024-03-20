@@ -20,7 +20,7 @@ public class UserModel {
     private String username;
 
     @Column(nullable = false,unique = true)
-    private String emailid;
+    private String emailId;
 
     @Column(nullable = false)
     private String password;
